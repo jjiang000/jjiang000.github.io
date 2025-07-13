@@ -14,7 +14,12 @@ function Writing() {
   return <div><h2>Writing</h2><p>Share your articles, essays, or blog posts here.</p></div>;
 }
 function Reading() {
-  return <div><h2>Reading</h2><p>List your favorite books, articles, or reading recommendations here.</p></div>;
+  return (
+    <div>
+      <h2>Reading</h2>
+      <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>Books and Articles I enjoyed</h3>
+    </div>
+  );
 }
 function Contact() {
   return <div><h2>Contact</h2><p>How can people reach you?</p></div>;
