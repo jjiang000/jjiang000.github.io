@@ -18,11 +18,11 @@ function Reading() {
     <div>
       <h2>Reading</h2>
       <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>Books and Articles I enjoyed</h3>
-      <ul style={{ marginTop: '1rem' }}>
-        <li>Co Intelligence</li>
-        <li>Atomic Habits</li>
-        <li>Other Rivers: A Chinese Education</li>
-      </ul>
+      <div style={{ marginTop: '1rem' }}>
+        <div>Co Intelligence</div>
+        <div>Atomic Habits</div>
+        <div>Other Rivers: A Chinese Education</div>
+      </div>
     </div>
   );
 }
