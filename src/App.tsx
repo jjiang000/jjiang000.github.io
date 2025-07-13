@@ -11,7 +11,12 @@ function Home() {
   );
 }
 function Writing() {
-  return <div><h2>Writing</h2><p>Share your articles, essays, or blog posts here.</p></div>;
+  return (
+    <div>
+      <h2>Writing</h2>
+      <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>My Thoughts</h3>
+    </div>
+  );
 }
 function Reading() {
   return (
