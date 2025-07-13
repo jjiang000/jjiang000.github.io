@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 function Home() {
   return (
     <div style={{ fontFamily: 'Georgia, serif' }}>
-      <p>No man is better than a machine. No machine is better than a man with a machine.</p>
+      <p><b><i>No man is better than a machine. No machine is better than a man with a machine.</i></b></p>
       <p>Judy is a finance professional, technology enthusiast and above all curious human being</p>
     </div>
   );
