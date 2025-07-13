@@ -32,7 +32,8 @@ export default function App() {
         gap: '1.5rem',
         height: '100vh',
         position: 'sticky',
-        top: 0
+        top: 0,
+        fontFamily: 'Georgia, serif'
       }}>
         <Link to="/" style={{ fontWeight: 700, fontSize: '1.5rem', marginBottom: '2rem', letterSpacing: '0.5px', color: 'black', textDecoration: 'none' }}>Judy Jiang</Link>
         <Link to="/writing" style={{ color: 'black', textDecoration: 'none', fontWeight: 500 }}>Writing</Link>
