@@ -5,6 +5,7 @@ function Home() {
     <div style={{ fontFamily: 'Georgia, serif' }}>
       <p><b>No man is better than a machine.<br />No machine is better than a man with a machine.</b></p>
       <p>Judy is a finance professional with a love for technology and a naturally curious mind. She enjoys connecting the dots between numbers, ideas, and the world around her.</p>
+      <p>She is currently based in London, following a decade in the United States, where she studied, lived and worked.</p>
     </div>
   );
 }
