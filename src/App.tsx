@@ -4,6 +4,7 @@ function Home() {
   return (
     <div>
       <p>No man is better than a machine. No machine is better than a man with a machine.</p>
+      <p>Judy is a finance professional, technology enthusiast and above all curious human being</p>
     </div>
   );
 }
