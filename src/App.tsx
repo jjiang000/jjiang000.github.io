@@ -30,7 +30,7 @@ function Contact() {
   return (
     <div>
       <h2>Contact</h2>
-      <a href="https://www.linkedin.com/in/judyjiejiang/" target="_blank" rel="noopener noreferrer">@https://www.linkedin.com/in/judyjiejiang/</a>
+      <a href="https://www.linkedin.com/in/judyjiejiang/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   );
 }
