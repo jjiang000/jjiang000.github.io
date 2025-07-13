@@ -27,7 +27,12 @@ function Reading() {
   );
 }
 function Contact() {
-  return <div><h2>Contact</h2><p>How can people reach you?</p></div>;
+  return (
+    <div>
+      <h2>Contact</h2>
+      <a href="https://www.linkedin.com/in/judyjiejiang/" target="_blank" rel="noopener noreferrer">@https://www.linkedin.com/in/judyjiejiang/</a>
+    </div>
+  );
 }
 
 export default function App() {
