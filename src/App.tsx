@@ -35,7 +35,17 @@ function Writing() {
           <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>My Thoughts</h3>
           <ul style={{ marginTop: '2rem', listStyle: 'none', padding: 0 }}>
             {articles.map((article, idx) => (
-              <li key={idx} style={{ marginBottom: '1rem', cursor: 'pointer', textDecoration: 'underline', color: '#2a2a8a' }} onClick={() => setSelected(idx)}>
+              <li
+                key={idx}
+                style={{
+                  marginBottom: '1rem',
+                  cursor: 'pointer',
+                  textDecoration: 'none',
+                  color: 'black',
+                  fontWeight: 500
+                }}
+                onClick={() => setSelected(idx)}
+              >
                 {article.title}
               </li>
             ))}
