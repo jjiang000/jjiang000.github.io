@@ -90,6 +90,7 @@ function Contact() {
 }
 
 export default function App() {
+  const location = useLocation();
   return (
     <div style={{ display: 'flex', minHeight: '100vh', background: 'white', color: 'black' }}>
       <nav style={{
@@ -112,7 +113,7 @@ export default function App() {
         <Link to="/contact" style={{ color: 'black', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
       </nav>
       <main style={{ flex: 1, padding: '2rem', background: 'white', color: 'black' }}>
-        <Routes>
+        <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/writing" element={<Writing />} />
           <Route path="/reading" element={<Reading />} />
