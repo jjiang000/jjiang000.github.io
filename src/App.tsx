@@ -15,6 +15,12 @@ function Writing() {
     <div>
       <h2>Writing</h2>
       <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>My Thoughts</h3>
+      <article style={{ marginTop: '2rem' }}>
+        <h4>A Human Afternoon, an AI Echo: Judy x AI at Louisiana Museum</h4>
+        <div style={{ fontSize: '0.9rem', color: '#555' }}>July 2025</div>
+        <p>Beneath the soft glow of a golden Nordic summer day, I at last arrived at the Louisiana Museum of Modern Art — a place that had lived in my imagination and shimmered on the edge of my wishes for years.</p>
+        <p>What struck me most was the seamless dialogue between the museum and its landscape — as if they had grown together over time. The sculptures don’t stand apart; they nestle into the earth, as if placed by nature’s own hand. Pars Pro Toto sat there with quiet certainty, as elemental as the stones themselves. And then there was Little Janey-Waney, turning gently in the breeze — bright, playful, a ripple of joy in the museum’s serene rhythm.</p>
+      </article>
     </div>
   );
 }
