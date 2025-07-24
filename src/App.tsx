@@ -51,7 +51,6 @@ function Writing() {
         </>
       ) : (
         <article style={{ marginTop: '2rem' }}>
-          <button onClick={() => setSelected(null)} style={{ marginBottom: '1rem', background: 'none', border: 'none', color: '#2a2a8a', cursor: 'pointer', textDecoration: 'underline', fontSize: '1rem' }}>&larr; Back to list</button>
           <h4>{articles[selected].title}</h4>
           <div style={{ fontSize: '0.9rem', color: '#555' }}>{articles[selected].date}</div>
           {articles[selected].content}
