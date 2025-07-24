@@ -38,16 +38,18 @@ function Writing() {
 
   return (
     <div>
-      <h2>Writing</h2>
-      <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>My Thoughts</h3>
       {selected === null ? (
-        <ul style={{ marginTop: '2rem', listStyle: 'none', padding: 0 }}>
-          {articles.map((article, idx) => (
-            <li key={idx} style={{ marginBottom: '1rem', cursor: 'pointer', textDecoration: 'underline', color: '#2a2a8a' }} onClick={() => setSelected(idx)}>
-              {article.title}
-            </li>
-          ))}
-        </ul>
+        <>
+          <h2>Writing</h2>
+          <h3 style={{ fontWeight: 'normal', fontStyle: 'italic', marginTop: '-0.5rem' }}>My Thoughts</h3>
+          <ul style={{ marginTop: '2rem', listStyle: 'none', padding: 0 }}>
+            {articles.map((article, idx) => (
+              <li key={idx} style={{ marginBottom: '1rem', cursor: 'pointer', textDecoration: 'underline', color: '#2a2a8a' }} onClick={() => setSelected(idx)}>
+                {article.title}
+              </li>
+            ))}
+          </ul>
+        </>
       ) : (
         <article style={{ marginTop: '2rem' }}>
           <button onClick={() => setSelected(null)} style={{ marginBottom: '1rem', background: 'none', border: 'none', color: '#2a2a8a', cursor: 'pointer', textDecoration: 'underline', fontSize: '1rem' }}>&larr; Back to list</button>
