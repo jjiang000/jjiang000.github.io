@@ -19,10 +19,23 @@ function Writing({ selected, setSelected }: { selected: number | null, setSelect
       date: 'July 2025',
       content: (
         <>
+          <h4>Judy x AI</h4>
           <p>Beneath the soft glow of a golden Nordic summer day, I at last arrived at the Louisiana Museum of Modern Art — a place that had lived in my imagination and shimmered on the edge of my wishes for years.</p>
           <p>What struck me most was the seamless dialogue between the museum and its landscape — as if they had grown together over time. The sculptures don’t stand apart; they nestle into the earth, as if placed by nature’s own hand. <i>Pars Pro Toto</i> sat there with quiet certainty, as elemental as the stones themselves. And then there was <i>Little Janey-Waney</i>, turning gently in the breeze — bright, playful, a ripple of joy in the museum’s serene rhythm.</p>
-          <p>Wandering into Giacometti Gallery, I felt the roles of art and setting gently reverse. Greenery framed by glass felt alive and commanding, while <i>Walking Man</i> stood still, a quiet echo of motion. I had known his work in fragments, but here, it gathered into something whole, as if the space made it speak to me, in a voice I hadn’t heard until now.</p>
+          <p>Wandering into Giacometti Gallery, I felt the roles of art and setting gently reverse. Greenery framed by glass felt alive and commanding, while <i>Walking Man</i> stood still, a quiet echo of motion. I had known Giacometti’s work in fragments, but here, it gathered into something whole, as if the space made it speak to me, in a voice I hadn’t heard until now.</p>
           <p>As the afternoon light softened into gold, I lingered a little longer — reluctant to leave the quiet conversation between art, space, and nature. Louisiana doesn’t try to impress; it invites. It asks you to slow down, to look twice, to feel. I came with long-held expectations, but left with something quieter and more lasting — a sense of stillness, gently stitched into memory.</p>
+
+          <h4>Motivation</h4>
+          <p>Ok that was pretty well written, especially compared to my dull first draft (below).</p>
+          <p>Writing has always felt daunting to me — a challenge made harder by being a non-native English speaker, an engineering major, and a naturally quiet person. Even simple tasks, like drafting a few lines for daily risk emails or weekly trade ideas, often feel cumbersome. You’d have to go back at least five years to find anything I’ve written at length — and even then, it was just dry school project reports.</p>
+          <p>Despite my struggles with writing, I often feel the urge to express myself, especially during big moments in life. Last summer, for instance, I wanted to write an essay to mark my first year in London. My Notes app was full of fragments — thoughts I had jotted down over time. But when I tried to piece them together, it felt overwhelming. In the end, I settled for a short social media post: two sentences and six photos.</p>
+          <p>In many ways, this journal is my first attempt to reconnect with writing. I’ve read that AI ranks at the 80th percentile of human creativity - a quiet miracle for someone like me, who often feels more blank page than pen. I don’t see it as a rival, but a hand extended.</p>
+
+          <h4>Judy without AI</h4>
+          <p>I’ve finally made my long-wished trip to this beautiful museum on a fine, sunny Nordic summer afternoon.</p>
+          <p>What struck me was how well the museum blends with its surroundings. Outdoor sculpture pieces feel a natural fit to the grasses and trees rather than a manmade intrusion (Alicja Kwade. 2018. <i>Pars Pro Toto</i>). Some even added more vividly and playfulness to the soothing surrounding (Alexander Calder. 1964-1976. <i>Little Janey-Waney</i>).</p>
+          <p>Wandering into the Giacometti Gallery, it felt as if roles between art and surrounding have reversed. Greeneries outside floor-to-ceiling windows seem to be the main actor while Giacometti’s <i>Walking Man</i> was merely there as a foil. I have seen various Giacometti pieces elsewhere but only in this gallery I felt a true connection.</p>
+          <p>The closing paragraph above was written entirely by ChatGPT without any raw inputs.</p>
         </>
       ),
     },
