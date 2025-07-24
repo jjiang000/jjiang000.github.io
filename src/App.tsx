@@ -23,6 +23,15 @@ function Writing() {
         </>
       ),
     },
+    {
+      title: 'Test',
+      date: 'July 2025',
+      content: (
+        <>
+          <p>This is a test article. You can replace this content with your own writing.</p>
+        </>
+      ),
+    },
     // Add more articles here
   ];
   const [selected, setSelected] = useState<number | null>(null);
