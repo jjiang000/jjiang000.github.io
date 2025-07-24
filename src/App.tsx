@@ -15,7 +15,7 @@ function Home() {
 function Writing({ selected, setSelected }: { selected: number | null, setSelected: (idx: number | null) => void }) {
   const articles = [
     {
-      title: 'A Human Afternoon, an AI Echo: Judy x AI at Louisiana Museum',
+      title: 'A Human Afternoon, an AI Echo',
       date: 'July 2025',
       content: (
         <>
