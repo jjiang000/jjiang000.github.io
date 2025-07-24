@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
+import './App.css';
 
 function Home() {
   return (
@@ -37,12 +38,13 @@ function Writing() {
             {articles.map((article, idx) => (
               <li
                 key={idx}
+                className="article-title"
                 style={{
                   marginBottom: '1rem',
                   cursor: 'pointer',
-                  textDecoration: 'none',
                   color: 'black',
-                  fontWeight: 500
+                  fontWeight: 500,
+                  textDecoration: 'none',
                 }}
                 onClick={() => setSelected(idx)}
               >
