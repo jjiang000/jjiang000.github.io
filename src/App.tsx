@@ -1,6 +1,7 @@
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import './App.css';
+import React from 'react';
 
 function Home() {
   return (
@@ -27,6 +28,13 @@ function Writing() {
     // Add more articles here
   ];
   const [selected, setSelected] = useState<number | null>(null);
+  const location = useLocation();
+  // Reset selected when navigating to /writing
+  React.useEffect(() => {
+    if (location.pathname === '/writing') {
+      setSelected(null);
+    }
+  }, [location.pathname]);
 
   return (
     <div>
