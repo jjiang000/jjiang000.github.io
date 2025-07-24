@@ -13,7 +13,7 @@ function Home() {
     </div>
   );
 }
-function Writing() {
+function Writing({ selected, setSelected }: { selected: number | null, setSelected: (idx: number | null) => void }) {
   const articles = [
     {
       title: 'A Human Afternoon, an AI Echo: Judy x AI at Louisiana Museum',
@@ -27,15 +27,6 @@ function Writing() {
     },
     // Add more articles here
   ];
-  const [selected, setSelected] = useState<number | null>(null);
-  const location = useLocation();
-  // Reset selected when navigating to /writing
-  React.useEffect(() => {
-    if (location.pathname === '/writing') {
-      setSelected(null);
-    }
-  }, [location.pathname]);
-
   return (
     <div>
       {selected === null ? (
@@ -47,9 +38,7 @@ function Writing() {
               <li
                 key={idx}
                 className="article-title"
-                style={{
-                  marginBottom: '1rem'
-                }}
+                style={{ marginBottom: '1rem' }}
                 onClick={() => setSelected(idx)}
               >
                 {article.title}
@@ -91,6 +80,7 @@ function Contact() {
 
 export default function App() {
   const location = useLocation();
+  const [selected, setSelected] = React.useState<number | null>(null);
   return (
     <div style={{ display: 'flex', minHeight: '100vh', background: 'white', color: 'black' }}>
       <nav style={{
@@ -108,14 +98,14 @@ export default function App() {
         fontFamily: 'Georgia, serif'
       }}>
         <Link to="/" style={{ fontWeight: 700, fontSize: '1.5rem', marginBottom: '2rem', letterSpacing: '0.5px', color: 'black', textDecoration: 'none' }}>Judy Jiang</Link>
-        <Link to="/writing" style={{ color: 'black', textDecoration: 'none', fontWeight: 500 }}>Writing</Link>
+        <Link to="/writing" style={{ color: 'black', textDecoration: 'none', fontWeight: 500 }} onClick={() => setSelected(null)}>Writing</Link>
         <Link to="/reading" style={{ color: 'black', textDecoration: 'none', fontWeight: 500 }}>Reading</Link>
         <Link to="/contact" style={{ color: 'black', textDecoration: 'none', fontWeight: 500 }}>Contact</Link>
       </nav>
       <main style={{ flex: 1, padding: '2rem', background: 'white', color: 'black' }}>
-        <Routes location={location} key={location.pathname}>
+        <Routes location={location}>
           <Route path="/" element={<Home />} />
-          <Route path="/writing" element={<Writing />} />
+          <Route path="/writing" element={<Writing selected={selected} setSelected={setSelected} />} />
           <Route path="/reading" element={<Reading />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
