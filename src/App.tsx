@@ -43,8 +43,7 @@ function Writing() {
                   marginBottom: '1rem',
                   cursor: 'pointer',
                   color: 'black',
-                  fontWeight: 500,
-                  textDecoration: 'none',
+                  fontWeight: 500
                 }}
                 onClick={() => setSelected(idx)}
               >
