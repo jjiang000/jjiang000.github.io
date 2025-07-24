@@ -21,6 +21,8 @@ function Writing({ selected, setSelected }: { selected: number | null, setSelect
         <>
           <p>Beneath the soft glow of a golden Nordic summer day, I at last arrived at the Louisiana Museum of Modern Art — a place that had lived in my imagination and shimmered on the edge of my wishes for years.</p>
           <p>What struck me most was the seamless dialogue between the museum and its landscape — as if they had grown together over time. The sculptures don’t stand apart; they nestle into the earth, as if placed by nature’s own hand. Pars Pro Toto sat there with quiet certainty, as elemental as the stones themselves. And then there was Little Janey-Waney, turning gently in the breeze — bright, playful, a ripple of joy in the museum’s serene rhythm.</p>
+          <p>Wandering into Giacometti Gallery, I felt the roles of art and setting gently reverse. Greenery framed by glass felt alive and commanding, while <i>Walking Man</i> stood still, a quiet echo of motion. I had known his work in fragments, but here, it gathered into something whole, as if the space made it speak to me, in a voice I hadn’t heard until now.</p>
+          <p>As the afternoon light softened into gold, I lingered a little longer — reluctant to leave the quiet conversation between art, space, and nature. Louisiana doesn’t try to impress; it invites. It asks you to slow down, to look twice, to feel. I came with long-held expectations, but left with something quieter and more lasting — a sense of stillness, gently stitched into memory.</p>
         </>
       ),
     },
