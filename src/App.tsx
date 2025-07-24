@@ -40,10 +40,7 @@ function Writing() {
                 key={idx}
                 className="article-title"
                 style={{
-                  marginBottom: '1rem',
-                  cursor: 'pointer',
-                  color: 'black',
-                  fontWeight: 500
+                  marginBottom: '1rem'
                 }}
                 onClick={() => setSelected(idx)}
               >

@@ -43,6 +43,12 @@
   color: #888;
 }
 
+.article-title {
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .article-title:hover {
   text-decoration: underline;
 }
